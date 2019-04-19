@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<Pane id="pane" fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <ImageView fx:id="WinPic" fitHeight="601.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true" />
+        <GridPane prefHeight="600.0" prefWidth="800.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Pane prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="5" />
+                <Pane layoutX="275.0" layoutY="10.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="6" />
+                <Pane layoutX="275.0" layoutY="60.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                <Pane layoutX="275.0" layoutY="111.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                <Pane layoutX="275.0" layoutY="111.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                <Pane layoutX="275.0" layoutY="111.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.rowIndex="4" />
+                <Pane layoutX="275.0" layoutY="111.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.rowIndex="3" />
+                <Pane layoutX="275.0" layoutY="111.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.rowIndex="2" />
+                <Pane layoutX="275.0" layoutY="111.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="1" />
+                <Pane layoutX="275.0" layoutY="111.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="2" />
+                <Pane layoutX="275.0" layoutY="111.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="3" />
+                <Pane layoutX="275.0" layoutY="111.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.rowIndex="1" />
+                <Pane layoutX="63.0" layoutY="60.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.rowIndex="10" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.rowIndex="9" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.rowIndex="8" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.rowIndex="7" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.rowIndex="6" />
+                <Pane layoutX="63.0" layoutY="161.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+                <Pane layoutX="116.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+                <Pane layoutX="169.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                <Pane layoutX="381.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                <Pane layoutX="381.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="13" GridPane.rowIndex="8" />
+                <Pane layoutX="381.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="7" />
+                <Pane layoutX="381.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="10" />
+                <Pane layoutX="381.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="10" />
+                <Pane prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+                <Pane prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+                <Pane prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                <Pane layoutX="487.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                <Pane layoutX="487.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                <Pane layoutX="487.0" layoutY="514.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="13" GridPane.rowIndex="10" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="11" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="9" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="8" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="2" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: blue;" GridPane.columnIndex="12" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: blue;" GridPane.columnIndex="4" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="13" GridPane.rowIndex="7" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="13" GridPane.rowIndex="6" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: blue;" GridPane.rowIndex="5" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="13" GridPane.rowIndex="2" />
+                <Pane layoutX="275.0" layoutY="103.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+                <Pane layoutX="222.0" layoutY="56.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="13" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: blue;" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                <Pane layoutX="275.0" layoutY="149.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                <Pane prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: blue;" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+                <Pane prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                <Pane layoutX="181.0" layoutY="65.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+                <Pane layoutX="181.0" layoutY="65.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                <Pane layoutX="181.0" layoutY="65.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                <Pane layoutX="295.0" layoutY="176.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+                <Pane layoutX="295.0" layoutY="176.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                <Pane layoutX="523.0" layoutY="287.0" prefHeight="144.0" prefWidth="54.0" style="-fx-background-color: white;" />
+                <ImageView fx:id="sith1" fitHeight="50.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12" />
+                <ImageView fx:id="sith2" fitHeight="50.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+                <ImageView fx:id="sith3" fitHeight="50.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+                <ImageView fx:id="Player" fitHeight="50.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                    <image>
+                        <Image url="@Images/yodachoose.jpeg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="50.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="13" GridPane.rowIndex="9">
+                    <image>
+                        <Image url="@Images/trophy.jpeg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="sith4" fitHeight="50.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5" />
+                <ImageView fx:id="sith5" fitHeight="50.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+            </children>
+        </GridPane>
+        <Button layoutX="865.0" layoutY="440.0" mnemonicParsing="false" onKeyPressed="#PressUp" onMouseClicked="#PlayerUp" prefHeight="31.0" prefWidth="58.0" text="UP" />
+        <Button layoutX="810.0" layoutY="480.0" mnemonicParsing="false" onKeyPressed="#PressLeft" onMouseClicked="#PlayerLeft" text="LEFT" />
+        <Button layoutX="930.0" layoutY="480.0" mnemonicParsing="false" onKeyPressed="#PressRight" onMouseClicked="#PlayerRight" text="RIGHT" />
+        <Button layoutX="865.0" layoutY="525.0" mnemonicParsing="false" onKeyPressed="#PressDown" onMouseClicked="#PlayerDown" text="DOWN" />
+        <TextField layoutX="800.0" layoutY="14.0" prefHeight="25.0" prefWidth="203.0" text="Karşılaşmak istediğiniz sithleri seçin" />
+        <ImageView fx:id="dvader" fitHeight="50.0" fitWidth="55.0" layoutX="932.0" layoutY="67.0" onMouseClicked="#SetSithDarthVader" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/darthvader.jpeg" />
+            </image></ImageView>
+        <ImageView fx:id="kyloren" fitHeight="62.0" fitWidth="62.0" layoutX="870.0" layoutY="67.0" onMouseClicked="#SetSithKyloRen" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/kyloren.jpeg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="stormtrooper" fitHeight="62.0" fitWidth="62.0" layoutX="932.0" layoutY="131.0" onMouseClicked="#SetSithStormtrooper" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/stormtrooper.jpeg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="LukeCharacter" fitHeight="600.0" fitWidth="500.0" onMouseClicked="#SetCharacterLuke" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/lukecharacter.jpeg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="YodaCharacter" fitHeight="600.0" fitWidth="500.0" layoutX="493.0" layoutY="-6.0" onMouseClicked="#SetCharacterYoda" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/yodacharacter.jpeg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="Force" fitHeight="646.0" fitWidth="1000.0" layoutX="1.0" layoutY="1.0" onMouseClicked="#ForceOut" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/start.jpeg" />
+            </image>
+        </ImageView>
+    </children>
+</Pane>
